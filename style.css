@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+body{
+    background-color: lightyellow;
+}
+
+.btn-btn-info{
+    padding: 0.5rem;
+    width: 70px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 15%;
+}
+
+.btn-btn-info:hover{
+    border: 2px solid yellowgreen;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.video__footage__container {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.video__footage {
+    position: relative;
+    top: 1rem;
+    font-weight: 700;
+}
+
+.video__footage::before {
+    background-image: linear-gradient(
+        to right,
+        yellowgreen 0%,
+        blue 51%,
+        yellow 100%
+    );
+    content: "";
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transform: translate(-1rem, -1rem);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.video__title{
+    color: blue;
+    margin: 0.5rem;
+}
+
+#carouselExampleControls{
+    top: 2.5rem;
+}
+
+.slide-title{
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 2rem;
+}
+
+
+.foot{
+    background-color: blue;
+    margin-top: 1rem;
+    
+}
+
+.foot__txt{
+   padding: 0.8rem;
+   color: rgb(252, 252, 14);
+}
+
+.foot__btn{
+   margin-bottom: 0.5rem;
+   margin-left: 0.8rem;
+}
+
+.social{
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-weight: 970;
+}
+
+.icon{
+   color: black;
+}
+
+@media (min-width: 1200px){
+    .card{
+        width: 75%;
+        top: 1rem;
+    }
+    .card-text{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .video__footage__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-item{
+        width: 50%;
+        left: 28%;
+    }
+
+    footer{
+        margin-top: 2.5rem;
+    }
+    
+    .foot{
+        display: flex;
+        padding: 1rem;
+       
+    }
+    .foot__txt,
+    .foot__btn{
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+    }
+    .foot__btn{
+        margin-left: 18rem;
+        cursor: pointer;
+    }
+    .social{
+        margin-top: 1.8rem;
+        color: black;
+    }
+    .social:hover{
+        cursor: pointer;
+        color: chartreuse;
+    }
+    #carouselExampleControls{
+        display: none;
+    }
+}

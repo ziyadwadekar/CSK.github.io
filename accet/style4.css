@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: none;
+}
+
+body{
+    background-color: lightyellow;
+}
+
+.btn-btn-info{
+    padding: 0.5rem;
+    width: 70px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 15%;
+}
+
+.btn-btn-info:hover{
+    border: 2px solid yellowgreen;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+footer{
+    margin-top: 2rem;
+}
+
+
+.foot{
+    background-color: blue;
+    margin-top: 1rem;
+    
+}
+
+.foot__txt{
+   padding: 0.8rem;
+   color: rgb(252, 252, 14);
+}
+
+.foot__btn{
+   margin-bottom: 0.5rem;
+   margin-left: 0.8rem;
+}
+
+.social{
+    text-align: center;
+    margin-top: 1rem;
+    color: black;
+    font-weight: 970;
+}
+
+.icon{
+   color: black;
+}
+
+.btn-btn-info1{
+    margin-top: 00.5rem;
+    padding: 0.7rem;
+    margin-left: 30%;
+    width: 120px;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 25%;
+}
+
+.btn-btn-info1:hover{
+    border: 2px solid yellowgreen;
+}
+
+@media (min-width: 1200px){
+    footer{
+        margin-top: 2.5rem;
+    }
+    
+    .foot{
+        display: flex;
+        padding: 1rem;
+       
+    }
+    .foot__txt,
+    .foot__btn{
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+    }
+    .foot__btn{
+        margin-left: 18rem;
+        cursor: pointer;
+    }
+    .social{
+        margin-top: 1.8rem;
+        color: black;
+    }
+    .social:hover{
+        cursor: pointer;
+        color: chartreuse;
+    }
+    .btn-btn-info1{
+        margin-left: 40%;
+    }
+
+}
